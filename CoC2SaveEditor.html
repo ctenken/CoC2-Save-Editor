@@ -6685,8 +6685,8 @@ h4 {
             bellyRatingRaw: 4,
             bellyRatingMod: 0,
             lipMod: 0,
-            _hairColor: "white",
-            skinColor: "bronze",
+            _hairColor: "grey",
+            skinColor: "pale",
             furColor: "brown",
             scaleColor: "brown",
             lipColor: "peach",
@@ -6722,7 +6722,7 @@ h4 {
             earLength: 0,
             eyeType: 7,
             eyeTags: [],
-            eyeColor: "black",
+            eyeColor: "red",
             orgasms: 0,
             lastOrgasm: 0,
             lastMilked: 0,
@@ -9346,8 +9346,8 @@ h4 {
             bellyRatingRaw: 8,
             bellyRatingMod: 0,
             lipMod: 0,
-            _hairColor: "orange",
-            skinColor: "dark",
+            _hairColor: "grey",
+            skinColor: "bronze",
             furColor: "brown",
             scaleColor: "brown",
             lipColor: "peach",
@@ -9383,7 +9383,7 @@ h4 {
             earLength: 0,
             eyeType: 7,
             eyeTags: [],
-            eyeColor: "red",
+            eyeColor: "black",
             orgasms: 0,
             lastOrgasm: 0,
             lastMilked: 0,
@@ -10927,7 +10927,7 @@ h4 {
             earLength: 0,
             eyeType: 7,
             eyeTags: [],
-            eyeColor: "blue",
+            eyeColor: "red",
             orgasms: 0,
             lastOrgasm: 0,
             lastMilked: 0,
@@ -11118,8 +11118,8 @@ h4 {
             bellyRatingRaw: 8,
             bellyRatingMod: 0,
             lipMod: 0,
-            _hairColor: "black",
-            skinColor: "pale",
+            _hairColor: "red",
+            skinColor: "dark",
             furColor: "brown",
             scaleColor: "brown",
             lipColor: "peach",
@@ -11155,7 +11155,7 @@ h4 {
             earLength: 0,
             eyeType: 7,
             eyeTags: [],
-            eyeColor: "blue",
+            eyeColor: "red",
             orgasms: 0,
             lastOrgasm: 0,
             lastMilked: 0,
@@ -12461,7 +12461,7 @@ h4 {
             bellyRatingRaw: 4,
             bellyRatingMod: 0,
             lipMod: 0,
-            _hairColor: "orange",
+            _hairColor: "red",
             skinColor: "bronze",
             furColor: "brown",
             scaleColor: "brown",
@@ -12498,7 +12498,7 @@ h4 {
             earLength: 0,
             eyeType: 7,
             eyeTags: [],
-            eyeColor: "yellow",
+            eyeColor: "red",
             orgasms: 0,
             lastOrgasm: 0,
             lastMilked: 0,
@@ -14520,7 +14520,7 @@ h4 {
                     type: 1,
                     virgin: true,
                     tags: [],
-                    lengthRaw: 15,
+                    lengthRaw: 14,
                     lengthMod: 0,
                     thicknessRatioRaw: 1,
                     thicknessRatioMod: 0,
@@ -18407,7 +18407,7 @@ h4 {
             bellyRatingRaw: 8,
             bellyRatingMod: 0,
             lipMod: 0,
-            _hairColor: "red",
+            _hairColor: "grey",
             skinColor: "bronze",
             furColor: "brown",
             scaleColor: "brown",
@@ -18444,7 +18444,7 @@ h4 {
             earLength: 0,
             eyeType: 7,
             eyeTags: [],
-            eyeColor: "black",
+            eyeColor: "red",
             orgasms: 0,
             lastOrgasm: 0,
             lastMilked: 0,
@@ -19275,8 +19275,8 @@ h4 {
             bellyRatingRaw: 0,
             bellyRatingMod: 0,
             lipMod: 0,
-            _hairColor: "white",
-            skinColor: "dark",
+            _hairColor: "red",
+            skinColor: "bronze",
             furColor: "brown",
             scaleColor: "brown",
             lipColor: "peach",
@@ -24319,7 +24319,7 @@ h4 {
             bellyRatingRaw: 8,
             bellyRatingMod: 0,
             lipMod: 0,
-            _hairColor: "red",
+            _hairColor: "grey",
             skinColor: "bronze",
             furColor: "brown",
             scaleColor: "brown",
@@ -28956,7 +28956,7 @@ h4 {
             bellyRatingMod: 0,
             lipMod: 0,
             _hairColor: "black",
-            skinColor: "bronze",
+            skinColor: "dark",
             furColor: "brown",
             scaleColor: "brown",
             lipColor: "peach",
@@ -28992,7 +28992,7 @@ h4 {
             earLength: 0,
             eyeType: 7,
             eyeTags: [],
-            eyeColor: "yellow",
+            eyeColor: "red",
             orgasms: 0,
             lastOrgasm: 0,
             lastMilked: 0,
@@ -29602,8 +29602,8 @@ h4 {
             bellyRatingRaw: 0,
             bellyRatingMod: 0,
             lipMod: 0,
-            _hairColor: "white",
-            skinColor: "pale",
+            _hairColor: "black",
+            skinColor: "dark",
             furColor: "brown",
             scaleColor: "brown",
             lipColor: "peach",
@@ -29639,7 +29639,7 @@ h4 {
             earLength: 0,
             eyeType: 7,
             eyeTags: [],
-            eyeColor: "blue",
+            eyeColor: "red",
             orgasms: 0,
             lastOrgasm: 0,
             lastMilked: 0,
@@ -40003,6 +40003,9 @@ h4 {
     function createPower(key) {
         return { key };
     }
+    function createKeyItem(key) {
+        return { key, state: 0 };
+    }
 
     class SaveLoadBarHTML {
         constructor() {
@@ -42030,93 +42033,50 @@ h4 {
         }
     }
 
-    // export class FlagContentHTML implements FieldHTML<HTMLDivElement> {
-    //     public readonly element: HTMLDivElement;
-    //     public readonly filterBar: FilterBarHTML;
-    //     public readonly flagListEl: HTMLUListElement;
-    //     public constructor() {
-    //         this.element = document.createElement('div');
-    //         this.element.className = 'content boxed';
-    //         this.filterBar = new FilterBarHTML();
-    //         this.element.appendChild(this.filterBar.element);
-    //         this.flagListEl = document.createElement('ul');
-    //         this.flagListEl.className = 'flags';
-    //         this.element.appendChild(this.flagListEl);
-    //     }
-    // }
-    // export class FlagContent implements Field {
-    //     private fields: { key: string, field: StringField }[] = [];
-    //     private filterBar: FilterBar;
-    //     public constructor(
-    //         getFlag: (key: FlagNames) => FlagType | undefined,
-    //         setFlag: (key: FlagNames, value?: FlagType) => void,
-    //         public readonly html = new FlagContentHTML()
-    //     ) {
-    //         for (const flag of Flags) {
-    //             const field = new StringField(
-    //                 flag,
-    //                 () => (getFlag(flag) ?? '') + '',
-    //                 (value) => setFlag(flag, toValue(value))
-    //             );
-    //             this.html.flagListEl.appendChild(field.html.element);
-    //             this.fields.push({ key: flag, field });
-    //         }
-    //         const filterList = this.fields.map((entry) => ({ key: entry.key, element: entry.field.html.element }));
-    //         this.filterBar = new FilterBar(filterList, this.html.filterBar);
-    //     }
-    //     public enable() {
-    //         for (const entry of this.fields)
-    //             entry.field.enable();
-    //         this.filterBar.enable();
-    //     }
-    //     public disable() {
-    //         for (const entry of this.fields)
-    //             entry.field.disable();
-    //         this.filterBar.disable();
-    //     }
-    // }
-    // function toValue(value: string) {
-    //     if (typeof value === 'string' && value.toLocaleLowerCase() === 'true')
-    //         return true;
-    //     else if (typeof value === 'string' && value.toLocaleLowerCase() === 'false')
-    //         return false;
-    //     else if (!isNaN(+value))
-    //         return +value;
-    //     else
-    //         return value;
-    // }
-    class FlagFieldHTML {
+    class KeyItemFieldHTML {
         constructor() {
             this.element = document.createElement('tr');
+            const ownsCell = document.createElement('td');
+            this.element.appendChild(ownsCell);
+            this.owns = createCheckBoxEl();
+            ownsCell.appendChild(this.owns);
             this.title = document.createElement('td');
             this.element.appendChild(this.title);
-            const textCell = document.createElement('td');
-            this.element.appendChild(textCell);
+            const state = document.createElement('td');
+            this.element.appendChild(state);
             this.input = createTextInput();
-            textCell.appendChild(this.input);
+            state.appendChild(this.input);
         }
     }
-    class FlagField {
-        constructor(key, getValue, setValue) {
+    class KeyItemField {
+        constructor(key, text, keyItemLookup) {
             this.key = key;
-            this.getValue = getValue;
-            this.html = new FlagFieldHTML();
-            this.html.title.textContent = key;
-            this.html.input.addEventListener('change', function () { setValue(this.value); });
+            this.keyItemLookup = keyItemLookup;
+            this.html = new KeyItemFieldHTML();
+            this.html.title.textContent = text;
+            this.html.input.value = '';
         }
         enable() {
-            this.html.input.disabled = false;
-            this.html.input.value = this.getValue();
+            this.html.owns.disabled = false;
+            const keyItem = this.keyItemLookup.get().find((keyItem) => (keyItem === null || keyItem === void 0 ? void 0 : keyItem.key) === this.key);
+            this.html.owns.checked = !!keyItem;
+            this.html.input.disabled = !this.html.owns.checked;
+            this.html.input.value = keyItem ? keyItem.state + '' : '';
         }
         disable() {
-            this.html.input.disabled = true;
+            this.html.owns.disabled = true;
+            this.html.owns.checked = false;
+            this.html.input.disabled = !this.html.owns.checked;
             this.html.input.value = '';
         }
     }
-    class FlagContentHTML {
+    class KeyItemsFieldHTML {
         constructor() {
+            // Element creation
             this.element = document.createElement('div');
-            this.element.className = 'content boxed';
+            this.element.className = 'keyItems content boxed';
+            this.equipped = document.createElement('ul');
+            // Filter Bar
             this.filterBar = new FilterBarHTML();
             this.element.appendChild(this.filterBar.element);
             const tableScroll = document.createElement('div');
@@ -42129,53 +42089,148 @@ h4 {
             tableEl.appendChild(tableHead);
             const labelRow = document.createElement('tr');
             tableHead.appendChild(labelRow);
-            const equippedLabel = document.createElement('th');
-            equippedLabel.textContent = 'Name';
-            labelRow.appendChild(equippedLabel);
+            const ownsLabel = document.createElement('th');
+            ownsLabel.textContent = 'Own';
+            labelRow.appendChild(ownsLabel);
             const nameLabel = document.createElement('th');
-            nameLabel.textContent = 'Value';
+            nameLabel.textContent = 'Name';
             labelRow.appendChild(nameLabel);
+            const stateLabel = document.createElement('th');
+            stateLabel.textContent = 'State';
+            labelRow.appendChild(stateLabel);
             //
             this.tableBody = document.createElement('tbody');
             tableEl.appendChild(this.tableBody);
         }
     }
-    class FlagContent {
-        constructor(getFlag, setFlag, html = new FlagContentHTML()) {
-            this.html = html;
-            this.fields = [];
-            this.fields = Flags.map((flag) => {
-                const field = new FlagField(flag, () => { var _a; return ((_a = getFlag(flag)) !== null && _a !== void 0 ? _a : '') + ''; }, (value) => setFlag(flag, toValue(value)));
-                this.html.tableBody.appendChild(field.html.element);
-                return field;
-            });
-            const filterList = this.fields.map((entry) => ({ key: entry.key, element: entry.html.element }));
+    class KeyItemsField {
+        constructor(keyItemsLookup) {
+            this.keyItemsLookup = keyItemsLookup;
+            this.keyItemFields = [];
+            this.html = new KeyItemsFieldHTML();
+            const sortedKeyItemInfo = sortGenericInfo(globalKeys.KeyItems);
+            for (const keyItemInfo of sortedKeyItemInfo) {
+                const keyItemField = new KeyItemField(keyItemInfo.value, keyItemInfo.name, keyItemsLookup);
+                keyItemField.html.owns.addEventListener('click', function () {
+                    const keyItems = keyItemsLookup.get();
+                    const index = keyItems.findIndex((value) => (value === null || value === void 0 ? void 0 : value.key) === keyItemInfo.value);
+                    if (this.checked && !~index) {
+                        const newKeyItem = createKeyItem(keyItemInfo.value);
+                        keyItems.push(newKeyItem);
+                        keyItemField.html.input.disabled = !this.checked;
+                        keyItemField.html.input.value = newKeyItem.state + '';
+                    }
+                    else if (!this.checked && ~index) {
+                        keyItems.splice(index, 1);
+                        keyItemField.html.input.disabled = !this.checked;
+                        keyItemField.html.input.value = '';
+                    }
+                });
+                keyItemField.html.input.addEventListener('change', function () {
+                    const keyItems = keyItemsLookup.get();
+                    const index = keyItems.findIndex((value) => (value === null || value === void 0 ? void 0 : value.key) === keyItemInfo.value);
+                    if (!~index) {
+                        keyItemField.html.input.value = '';
+                    }
+                    else {
+                        keyItems[index].state = Number(keyItemField.html.input.value);
+                    }
+                });
+                this.html.tableBody.appendChild(keyItemField.html.element);
+                this.keyItemFields.push(keyItemField);
+            }
+            const filterList = this.keyItemFields.map((entry) => ({ key: entry.key, element: entry.html.element }));
             this.filterBar = new FilterBar(filterList, this.html.filterBar);
         }
         enable() {
             enable(this.filterBar.html.element);
             enable(this.html.tableBody);
-            for (const field of this.fields)
-                field.enable();
             this.filterBar.enable();
+            for (const entry of this.keyItemFields)
+                entry.enable();
         }
         disable() {
             disable(this.filterBar.html.element);
             disable(this.html.tableBody);
-            for (const field of this.fields)
-                field.disable();
+            for (const entry of this.keyItemFields)
+                entry.disable();
             this.filterBar.disable();
         }
     }
-    function toValue(value) {
-        if (typeof value === 'string' && value.toLocaleLowerCase() === 'true')
-            return true;
-        else if (typeof value === 'string' && value.toLocaleLowerCase() === 'false')
-            return false;
-        else if (!isNaN(+value))
-            return +value;
-        else
-            return value;
+
+    class CharContentHTML {
+        constructor() {
+            this.element = document.createElement('div');
+            this.element.id = 'char-editor';
+            this.element.className = 'content';
+            this.select = new SelectFieldHTML();
+            this.tabBar = createTabBar('horizontal');
+            this.element.appendChild(this.select.element);
+            this.element.appendChild(this.tabBar);
+        }
+    }
+    class CharContent extends TabbedContent {
+        constructor(state) {
+            const getChar = () => {
+                var _a;
+                if (!state.editObj)
+                    throw new Error('Save not loaded');
+                const char = state.editObj.data.chars[(_a = state.activeChar) !== null && _a !== void 0 ? _a : 'pc'];
+                if (!char)
+                    throw new Error('Char ' + state.activeChar + ' not found');
+                return char;
+            };
+            const tabs = [{
+                    key: 'info',
+                    title: 'Info',
+                    content: displayCharInfo(getChar),
+                }, {
+                    key: 'stats',
+                    title: 'Stats',
+                    content: displayCharStats(getChar),
+                }, {
+                    key: 'effects',
+                    title: 'Effects',
+                    content: displayCharEffectsContent(getChar),
+                }, {
+                    key: 'inv',
+                    title: 'Inventory',
+                    content: new Inventory(() => getChar().inventory),
+                }, {
+                    key: 'keyitems',
+                    title: 'Key Items',
+                    content: new KeyItemsField({
+                        get: () => getChar().keyItems,
+                        set: v => getChar().keyItems = v
+                    }),
+                }, {
+                    key: 'body',
+                    title: 'Body',
+                    content: displayCharBodyContent(getChar),
+                }];
+            const html = new CharContentHTML();
+            const charInfo = Object.keys(charDefaults).map((key) => ({ name: spaceAndCapText(key), value: key }));
+            const selectCharField = new SelectField(charInfo, {
+                get: () => { var _a; return (_a = state.activeChar) !== null && _a !== void 0 ? _a : (state.activeChar = 'pc'); },
+                set: (value) => {
+                    state.activeChar = value;
+                    for (const entry of tabs)
+                        entry.content.enable();
+                }
+            }, html.select);
+            super(tabs, html);
+            this.selectCharField = selectCharField;
+        }
+        enable() {
+            super.enable();
+            enable(this.selectCharField.html.element);
+            this.selectCharField.enable();
+        }
+        disable() {
+            super.disable();
+            disable(this.selectCharField.html.element);
+            this.selectCharField.disable();
+        }
     }
 
     function displayEditorContent(state) {
@@ -42196,22 +42251,247 @@ h4 {
             }]);
     }
 
-    class SaveLoadContentHTML {
+    const Quests = [
+        { name: "In Her Footsteps", comp: [6], fail: [], states: 7 },
+        { name: "Right of Conquest", comp: [7, 8, 9], fail: [], states: 11 },
+        { name: "Cat Call", comp: [3], fail: [], states: 6 },
+        { name: "One Man's Poison", comp: [1], fail: [], states: 2 },
+        { name: "Caparison Hunter", comp: [8], fail: [], states: 9 },
+        { name: "The Mistress", comp: [2, 3], fail: [], states: 4 },
+        { name: "Royal Amnesty", comp: [1], fail: [2], states: 3 },
+        { name: "Educational Help", comp: [1], fail: [2], states: 3 },
+        { name: "Missing Meows", comp: [2, 3, 5, 6], fail: [0], states: 7 },
+        { name: "Dog Days", comp: [4, 5], fail: [], states: 6 },
+        { name: "Harboring a Fugitive", comp: [7, 6], fail: [8], states: 9 },
+        { name: "Ugly Duckling", comp: [3], fail: [4], states: 5 },
+        { name: "Nothing Like Housework", comp: [4], fail: [], states: 5 },
+        { name: "Shades of the Past", comp: [10], fail: [1, 9], states: 11 },
+        { name: "Mad Cow", comp: [3, 4, 5], fail: [], states: 6 },
+        { name: "Getting into the Closet", comp: [3, 5], fail: [], states: 6 },
+        { name: "Farmhand's Freeholds", comp: [2], fail: [], states: 3 },
+        { name: "Inheriter of the Idols", comp: [4], fail: [], states: 5 },
+        { name: "Blacksmith's New Clothes", comp: [3], fail: [], states: 4 },
+        { name: "Land of Milky Honey", comp: [9], fail: [], states: 10 },
+        { name: "Den of Foxes", comp: [5], fail: [], states: 6 },
+        { name: "Quintessentials", comp: [3], fail: [], states: 4 },
+        { name: "Meet and Greet", comp: [1], fail: [], states: 2 },
+        { name: "For Want of a Nail", comp: [2, 3], fail: [], states: 4 },
+        { name: "The Demon of Ice", comp: [6, 7], fail: [], states: 8 },
+        { name: "Ninja Stylin'", comp: [3], fail: [], states: 4 },
+        { name: "Artifice Testing", comp: [3], fail: [], states: 4 },
+        { name: "Winter Wolf", comp: [13], fail: [14], states: 15 },
+        { name: "Sweetest Climax", comp: [3], fail: [], states: 4 },
+        { name: "Father Where Art Thou?", comp: [2], fail: [], states: 3 },
+        { name: "Winterstem for Aurera", comp: [1], fail: [], states: 2 },
+        { name: "I Ain't Afraid of No Ghost", comp: [3], fail: [], states: 4 },
+        { name: "Divine Pussy", comp: [7], fail: [], states: 8 },
+        { name: "The Wyld Hunt", comp: [2], fail: [], states: 3 },
+        { name: "I’ll Make a Man out of You", comp: [1], fail: [], states: 2 },
+        { name: "Large is Justice", comp: [1], fail: [], states: 2 },
+        { name: "The Siege of Khor'minos", comp: [15, 16], fail: [], states: 17 },
+        { name: "Redemption", comp: [], fail: [], states: 3 },
+        { name: "Spidernets", comp: [4], fail: [], states: 5 },
+        { name: "Family Matters", comp: [3, 6, 7, 8], fail: [5], states: 9 },
+        { name: "Hot Wings & Thighs", comp: [4], fail: [], states: 5 },
+        { name: "Wayfort Renovations", comp: [3], fail: [], states: 4 },
+        { name: "Wayfort Upgrades", comp: [3], fail: [], states: 4 },
+        { name: "The Pale Flame", comp: [3], fail: [], states: 4 },
+        { name: "Dye-ing to Get to Know You", comp: [5, 6], fail: [], states: 7 },
+        { name: "A Dragon in the Roost", comp: [3], fail: [], states: 4 },
+        { name: "Rehoming the Centaurs", comp: [2], fail: [], states: 3 },
+        { name: "Work-life Balance", comp: [1], fail: [], states: 2 },
+        { name: "High Ground", comp: [4], fail: [3], states: 5 },
+        { name: "A Teatime For Dragons", comp: [5], fail: [], states: 6 },
+        { name: "Maids of Wayfort", comp: [5], fail: [], states: 6 },
+        { name: "Matiha's Revenge", comp: [2], fail: [], states: 3 },
+        { name: "Attitude Adjustment", comp: [5], fail: [], states: 6 },
+        { name: "Dungeoneering", comp: [3], fail: [], states: 4 },
+        { name: "The Ring of Fate", comp: [4], fail: [0], states: 5 },
+        { name: "Big Bad Wolf", comp: [2], fail: [0], states: 3 },
+        { name: "Shadows Over the Sun", comp: [9], fail: [], states: 10 },
+        { name: "Be Witched", comp: [8, 9], fail: [10, 11], states: 12 },
+        { name: "Vision Quest", comp: [11], fail: [], states: 12 },
+        { name: "Horn of Tides", comp: [1], fail: [], states: 2 },
+        { name: "Ruins of Xadaron", comp: [4], fail: [], states: 5 },
+        { name: "Monstrous Tailoring", comp: [4], fail: [], states: 5 },
+        { name: "Kalysea's Offerings", comp: [5], fail: [], states: 6 },
+        { name: "Golden Carrot", comp: [5], fail: [], states: 6 },
+        { name: "Velun's Sword", comp: [2], fail: [], states: 3 },
+        { name: "Courting The Cowgirl", comp: [9], fail: [], states: 10 },
+        { name: "Courting The Bull", comp: [4], fail: [], states: 5 },
+        { name: "Crystal Clear", comp: [3], fail: [], states: 4 },
+        { name: "Stepping Up", comp: [2], fail: [], states: 3 },
+        { name: "A Taste of Draconic Power", comp: [7], fail: [2], states: 8 },
+        { name: "Saving Tarah", comp: [5, 6], fail: [], states: 7 },
+        { name: "Unlikely Prospect", comp: [3], fail: [4], states: 5 },
+        { name: "The Black Knight", comp: [1], fail: [], states: 2 },
+        { name: "Nightmemory", comp: [5], fail: [], states: 6 },
+        { name: "A Relic of Repute", comp: [6], fail: [], states: 7 },
+        { name: "Howling in the Dark", comp: [9], fail: [], states: 10 },
+        { name: "Strange Bedfellows", comp: [4, 10], fail: [12], states: 13 },
+        {
+            name: "Over Troubled Water",
+            comp: [16, 17, 19],
+            fail: [2, 9, 18],
+            states: 20
+        },
+        { name: "Ill Fated Rescue", comp: [4], fail: [], states: 5 },
+        { name: "Homecoming", comp: [1], fail: [], states: 2 },
+        { name: "Big Bull, Tiny Closet", comp: [5], fail: [], states: 6 },
+        { name: "Mystic Mischief", comp: [2], fail: [], states: 3 },
+        { name: "Nash's Lost Delivery", comp: [2], fail: [], states: 3 },
+        { name: "Trouble in Khor'minos", comp: [2], fail: [], states: 3 },
+        { name: "Giving the Bull His Horn", comp: [1], fail: [], states: 2 },
+        { name: "Alienation", comp: [3], fail: [], states: 4 },
+        { name: "At the Edge of the World", comp: [], fail: [], states: 1 },
+        { name: "Velun's Daughters", comp: [], fail: [], states: 1 },
+        { name: "Uplifting", comp: [5], fail: [], states: 6 }
+    ];
+
+    class QuestFieldHTML {
         constructor() {
-            this.element = document.createElement('div');
-            this.element.className = 'content';
-            this.saveLoadBar = new SaveLoadBarHTML();
-            this.element.appendChild(this.saveLoadBar.element);
+            this.element = document.createElement('tr');
+            this.title = document.createElement('td');
+            this.element.appendChild(this.title);
+            const state = document.createElement('td');
+            this.element.appendChild(state);
+            this.input = createTextInput();
+            state.appendChild(this.input);
+            this.current = document.createElement('td');
+            this.element.appendChild(this.current);
+            this.complete = document.createElement('td');
+            this.element.appendChild(this.complete);
+            this.failure = document.createElement('td');
+            this.element.appendChild(this.failure);
+            this.states = document.createElement('td');
+            this.element.appendChild(this.states);
         }
     }
-    class SaveLoadContent {
-        constructor(html = new SaveLoadContentHTML()) {
-            this.html = html;
-            const editor = displayEditorContent(state);
-            editor.disable();
-            html.element.appendChild(editor.html.element);
-            new SaveLoadBar(state, () => editor.enable(), () => editor.disable(), html.saveLoadBar);
+    class QuestField {
+        constructor(quest, getValue, setValue) {
+            this.quest = quest;
+            this.getValue = getValue;
+            this.html = new QuestFieldHTML();
+            this.html.title.textContent = quest.name;
+            const currentState = this.html.current;
+            this.html.input.addEventListener('change', function () {
+                var _a;
+                let res = this.value.split(',').filter(v => v.length > 0).map(Number);
+                setValue(res);
+                currentState.textContent = ((_a = res[res.length - 1]) !== null && _a !== void 0 ? _a : '') + '';
+            });
+            this.html.current.textContent = '';
+            this.html.complete.textContent = quest.comp + '';
+            this.html.failure.textContent = quest.fail + '';
+            this.html.states.textContent = [...Array(quest.states)].map((_, i) => i) + '';
         }
+        enable() {
+            var _a;
+            this.html.input.disabled = false;
+            let value = this.getValue();
+            this.html.input.value = value + '';
+            this.html.current.textContent = ((_a = value[value.length - 1]) !== null && _a !== void 0 ? _a : '') + '';
+        }
+        disable() {
+            this.html.input.disabled = true;
+            this.html.input.value = '';
+            this.html.current.textContent = '';
+        }
+    }
+    class QuestContentHTML {
+        constructor() {
+            this.element = document.createElement('div');
+            this.element.id = 'quest-editor';
+            this.element.className = 'content boxed';
+            this.filterBar = new FilterBarHTML();
+            this.element.appendChild(this.filterBar.element);
+            const tableScroll = document.createElement('div');
+            tableScroll.className = 'table-scroll';
+            this.element.appendChild(tableScroll);
+            const tableEl = document.createElement('table');
+            tableScroll.appendChild(tableEl);
+            // Table Head
+            const tableHead = document.createElement('thead');
+            tableEl.appendChild(tableHead);
+            const labelRow = document.createElement('tr');
+            tableHead.appendChild(labelRow);
+            const equippedLabel = document.createElement('th');
+            equippedLabel.textContent = 'Name';
+            labelRow.appendChild(equippedLabel);
+            const dataLabel = document.createElement('th');
+            dataLabel.textContent = 'Data';
+            labelRow.appendChild(dataLabel);
+            const currentLabel = document.createElement('th');
+            currentLabel.textContent = 'Current';
+            labelRow.appendChild(currentLabel);
+            const successLabel = document.createElement('th');
+            successLabel.textContent = 'Success';
+            labelRow.appendChild(successLabel);
+            const failureLabel = document.createElement('th');
+            failureLabel.textContent = 'Failure';
+            labelRow.appendChild(failureLabel);
+            const statesLabel = document.createElement('th');
+            statesLabel.textContent = 'All States';
+            labelRow.appendChild(statesLabel);
+            //
+            this.tableBody = document.createElement('tbody');
+            tableEl.appendChild(this.tableBody);
+        }
+    }
+    class QuestContent {
+        constructor(getQuestState, setQuestState, html = new QuestContentHTML()) {
+            this.html = html;
+            this.fields = [];
+            this.fields = Quests.map((quest, index) => {
+                const field = new QuestField(quest, () => { var _a; return (_a = getQuestState(index)) !== null && _a !== void 0 ? _a : []; }, (value) => setQuestState(index, value));
+                this.html.tableBody.appendChild(field.html.element);
+                return field;
+            });
+            const filterList = this.fields.map((entry) => ({ key: entry.quest.name, element: entry.html.element }));
+            this.filterBar = new FilterBar(filterList, this.html.filterBar);
+        }
+        enable() {
+            enable(this.filterBar.html.element);
+            enable(this.html.tableBody);
+            for (const field of this.fields)
+                field.enable();
+            this.filterBar.enable();
+        }
+        disable() {
+            disable(this.filterBar.html.element);
+            disable(this.html.tableBody);
+            for (const field of this.fields)
+                field.disable();
+            this.filterBar.disable();
+        }
+    }
+
+    function displayEditorContent(state) {
+        return new TabbedContent([{
+                key: 'chars',
+                title: 'Character',
+                content: new CharContent(state),
+            }, {
+                key: 'quests',
+                title: 'Quests',
+                content: new QuestContent((key) => { var _a; return (_a = state.editObj) === null || _a === void 0 ? void 0 : _a.data.quests[key]; }, (key, value) => {
+                    if (state.editObj)
+                        if (!value)
+                            delete state.editObj.data.quests[key];
+                        else
+                            state.editObj.data.quests[key] = value;
+                }),
+            }, {
+                key: 'flags',
+                title: 'Flags',
+                content: new FlagContent((key) => { var _a; return (_a = state.editObj) === null || _a === void 0 ? void 0 : _a.data.flags[key]; }, (key, value) => {
+                    if (state.editObj)
+                        if (!value)
+                            delete state.editObj.data.flags[key];
+                        else
+                            state.editObj.data.flags[key] = value;
+                }),
+            }]);
     }
 
     function displayDisclaimer(editorVersion, gameVersion, lastBreakingVersion) {
