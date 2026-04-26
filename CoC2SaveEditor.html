@@ -9346,8 +9346,8 @@ h4 {
             bellyRatingRaw: 8,
             bellyRatingMod: 0,
             lipMod: 0,
-            _hairColor: "grey",
-            skinColor: "bronze",
+            _hairColor: "orange",
+            skinColor: "dark",
             furColor: "brown",
             scaleColor: "brown",
             lipColor: "peach",
@@ -10927,7 +10927,7 @@ h4 {
             earLength: 0,
             eyeType: 7,
             eyeTags: [],
-            eyeColor: "red",
+            eyeColor: "blue",
             orgasms: 0,
             lastOrgasm: 0,
             lastMilked: 0,
@@ -28992,7 +28992,7 @@ h4 {
             earLength: 0,
             eyeType: 7,
             eyeTags: [],
-            eyeColor: "red",
+            eyeColor: "yellow",
             orgasms: 0,
             lastOrgasm: 0,
             lastMilked: 0,
@@ -29639,7 +29639,7 @@ h4 {
             earLength: 0,
             eyeType: 7,
             eyeTags: [],
-            eyeColor: "red",
+            eyeColor: "blue",
             orgasms: 0,
             lastOrgasm: 0,
             lastMilked: 0,
@@ -41965,74 +41965,6 @@ h4 {
         }
     }
 
-    class CharContentHTML {
-        constructor() {
-            this.element = document.createElement('div');
-            this.element.id = 'char-editor';
-            this.element.className = 'content';
-            this.select = new SelectFieldHTML();
-            this.tabBar = createTabBar('horizontal');
-            this.element.appendChild(this.select.element);
-            this.element.appendChild(this.tabBar);
-        }
-    }
-    class CharContent extends TabbedContent {
-        constructor(state) {
-            const getChar = () => {
-                var _a;
-                if (!state.editObj)
-                    throw new Error('Save not loaded');
-                const char = state.editObj.data.chars[(_a = state.activeChar) !== null && _a !== void 0 ? _a : 'pc'];
-                if (!char)
-                    throw new Error('Char ' + state.activeChar + ' not found');
-                return char;
-            };
-            const tabs = [{
-                    key: 'info',
-                    title: 'Info',
-                    content: displayCharInfo(getChar),
-                }, {
-                    key: 'stats',
-                    title: 'Stats',
-                    content: displayCharStats(getChar),
-                }, {
-                    key: 'effects',
-                    title: 'Effects',
-                    content: displayCharEffectsContent(getChar),
-                }, {
-                    key: 'inv',
-                    title: 'Inventory',
-                    content: new Inventory(() => getChar().inventory),
-                }, {
-                    key: 'body',
-                    title: 'Body',
-                    content: displayCharBodyContent(getChar),
-                }];
-            const html = new CharContentHTML();
-            const charInfo = Object.keys(charDefaults).map((key) => ({ name: spaceAndCapText(key), value: key }));
-            const selectCharField = new SelectField(charInfo, {
-                get: () => { var _a; return (_a = state.activeChar) !== null && _a !== void 0 ? _a : (state.activeChar = 'pc'); },
-                set: (value) => {
-                    state.activeChar = value;
-                    for (const entry of tabs)
-                        entry.content.enable();
-                }
-            }, html.select);
-            super(tabs, html);
-            this.selectCharField = selectCharField;
-        }
-        enable() {
-            super.enable();
-            enable(this.selectCharField.html.element);
-            this.selectCharField.enable();
-        }
-        disable() {
-            super.disable();
-            disable(this.selectCharField.html.element);
-            this.selectCharField.disable();
-        }
-    }
-
     class KeyItemFieldHTML {
         constructor() {
             this.element = document.createElement('tr');
@@ -42233,22 +42165,152 @@ h4 {
         }
     }
 
-    function displayEditorContent(state) {
-        return new TabbedContent([{
-                key: 'chars',
-                title: 'Character',
-                content: new CharContent(state),
-            }, {
-                key: 'flags',
-                title: 'Flags',
-                content: new FlagContent((key) => { var _a; return (_a = state.editObj) === null || _a === void 0 ? void 0 : _a.data.flags[key]; }, (key, value) => {
-                    if (state.editObj)
-                        if (!value)
-                            delete state.editObj.data.flags[key];
-                        else
-                            state.editObj.data.flags[key] = value;
-                }),
-            }]);
+    // export class FlagContentHTML implements FieldHTML<HTMLDivElement> {
+    //     public readonly element: HTMLDivElement;
+    //     public readonly filterBar: FilterBarHTML;
+    //     public readonly flagListEl: HTMLUListElement;
+    //     public constructor() {
+    //         this.element = document.createElement('div');
+    //         this.element.className = 'content boxed';
+    //         this.filterBar = new FilterBarHTML();
+    //         this.element.appendChild(this.filterBar.element);
+    //         this.flagListEl = document.createElement('ul');
+    //         this.flagListEl.className = 'flags';
+    //         this.element.appendChild(this.flagListEl);
+    //     }
+    // }
+    // export class FlagContent implements Field {
+    //     private fields: { key: string, field: StringField }[] = [];
+    //     private filterBar: FilterBar;
+    //     public constructor(
+    //         getFlag: (key: FlagNames) => FlagType | undefined,
+    //         setFlag: (key: FlagNames, value?: FlagType) => void,
+    //         public readonly html = new FlagContentHTML()
+    //     ) {
+    //         for (const flag of Flags) {
+    //             const field = new StringField(
+    //                 flag,
+    //                 () => (getFlag(flag) ?? '') + '',
+    //                 (value) => setFlag(flag, toValue(value))
+    //             );
+    //             this.html.flagListEl.appendChild(field.html.element);
+    //             this.fields.push({ key: flag, field });
+    //         }
+    //         const filterList = this.fields.map((entry) => ({ key: entry.key, element: entry.field.html.element }));
+    //         this.filterBar = new FilterBar(filterList, this.html.filterBar);
+    //     }
+    //     public enable() {
+    //         for (const entry of this.fields)
+    //             entry.field.enable();
+    //         this.filterBar.enable();
+    //     }
+    //     public disable() {
+    //         for (const entry of this.fields)
+    //             entry.field.disable();
+    //         this.filterBar.disable();
+    //     }
+    // }
+    // function toValue(value: string) {
+    //     if (typeof value === 'string' && value.toLocaleLowerCase() === 'true')
+    //         return true;
+    //     else if (typeof value === 'string' && value.toLocaleLowerCase() === 'false')
+    //         return false;
+    //     else if (!isNaN(+value))
+    //         return +value;
+    //     else
+    //         return value;
+    // }
+    class FlagFieldHTML {
+        constructor() {
+            this.element = document.createElement('tr');
+            this.title = document.createElement('td');
+            this.element.appendChild(this.title);
+            const textCell = document.createElement('td');
+            this.element.appendChild(textCell);
+            this.input = createTextInput();
+            textCell.appendChild(this.input);
+        }
+    }
+    class FlagField {
+        constructor(key, getValue, setValue) {
+            this.key = key;
+            this.getValue = getValue;
+            this.html = new FlagFieldHTML();
+            this.html.title.textContent = key;
+            this.html.input.addEventListener('change', function () { setValue(this.value); });
+        }
+        enable() {
+            this.html.input.disabled = false;
+            this.html.input.value = this.getValue();
+        }
+        disable() {
+            this.html.input.disabled = true;
+            this.html.input.value = '';
+        }
+    }
+    class FlagContentHTML {
+        constructor() {
+            this.element = document.createElement('div');
+            this.element.className = 'content boxed';
+            this.filterBar = new FilterBarHTML();
+            this.element.appendChild(this.filterBar.element);
+            const tableScroll = document.createElement('div');
+            tableScroll.className = 'table-scroll';
+            this.element.appendChild(tableScroll);
+            const tableEl = document.createElement('table');
+            tableScroll.appendChild(tableEl);
+            // Table Head
+            const tableHead = document.createElement('thead');
+            tableEl.appendChild(tableHead);
+            const labelRow = document.createElement('tr');
+            tableHead.appendChild(labelRow);
+            const equippedLabel = document.createElement('th');
+            equippedLabel.textContent = 'Name';
+            labelRow.appendChild(equippedLabel);
+            const nameLabel = document.createElement('th');
+            nameLabel.textContent = 'Value';
+            labelRow.appendChild(nameLabel);
+            //
+            this.tableBody = document.createElement('tbody');
+            tableEl.appendChild(this.tableBody);
+        }
+    }
+    class FlagContent {
+        constructor(getFlag, setFlag, html = new FlagContentHTML()) {
+            this.html = html;
+            this.fields = [];
+            this.fields = Flags.map((flag) => {
+                const field = new FlagField(flag, () => { var _a; return ((_a = getFlag(flag)) !== null && _a !== void 0 ? _a : '') + ''; }, (value) => setFlag(flag, toValue(value)));
+                this.html.tableBody.appendChild(field.html.element);
+                return field;
+            });
+            const filterList = this.fields.map((entry) => ({ key: entry.key, element: entry.html.element }));
+            this.filterBar = new FilterBar(filterList, this.html.filterBar);
+        }
+        enable() {
+            enable(this.filterBar.html.element);
+            enable(this.html.tableBody);
+            for (const field of this.fields)
+                field.enable();
+            this.filterBar.enable();
+        }
+        disable() {
+            disable(this.filterBar.html.element);
+            disable(this.html.tableBody);
+            for (const field of this.fields)
+                field.disable();
+            this.filterBar.disable();
+        }
+    }
+    function toValue(value) {
+        if (typeof value === 'string' && value.toLocaleLowerCase() === 'true')
+            return true;
+        else if (typeof value === 'string' && value.toLocaleLowerCase() === 'false')
+            return false;
+        else if (!isNaN(+value))
+            return +value;
+        else
+            return value;
     }
 
     const Quests = [
@@ -42492,6 +42554,24 @@ h4 {
                             state.editObj.data.flags[key] = value;
                 }),
             }]);
+    }
+
+    class SaveLoadContentHTML {
+        constructor() {
+            this.element = document.createElement('div');
+            this.element.className = 'content';
+            this.saveLoadBar = new SaveLoadBarHTML();
+            this.element.appendChild(this.saveLoadBar.element);
+        }
+    }
+    class SaveLoadContent {
+        constructor(html = new SaveLoadContentHTML()) {
+            this.html = html;
+            const editor = displayEditorContent(state);
+            editor.disable();
+            html.element.appendChild(editor.html.element);
+            new SaveLoadBar(state, () => editor.enable(), () => editor.disable(), html.saveLoadBar);
+        }
     }
 
     function displayDisclaimer(editorVersion, gameVersion, lastBreakingVersion) {
