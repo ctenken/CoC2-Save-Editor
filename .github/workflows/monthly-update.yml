@@ -1,9 +1,9 @@
-name: Monthly Update
+name: Update Save Editor
 
 on:
   schedule:
-    # Runs every day at midnight UTC
-    - cron: '0 0 * * *'
+    # Runs every day at 10 UTC
+    - cron: '0 10 * * *'
   workflow_dispatch: # Allow manual runs from the Actions tab
 
 jobs:
@@ -50,7 +50,7 @@ jobs:
             src/GameData/Flags.ts \
             src/GameData/GlobalKeys.ts \
             CoC2SaveEditor.html
-          git commit -m "chore: monthly update $(date +'%Y-%m-%d')"
+          git commit -m "chore: Update Save Editor $(date +'%Y-%m-%d')"
           git push
 
       - name: No changes detected
