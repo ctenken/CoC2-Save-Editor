@@ -222,7 +222,9 @@ const fs = require('fs');
                     }, {})
                 );
 
-                return { globals, pregFlagKeys, charDefaults, log };
+                const gameVersion = typeof window.version === 'string' ? window.version : '';
+
+                return { globals, pregFlagKeys, charDefaults, log, gameVersion };
             }
             catch (err) {
                 return { log, err: err + '' };
@@ -301,6 +303,20 @@ const fs = require('fs');
     fs.writeFileSync('src/GameData/GlobalKeys.ts', asConst(format('export const globalKeys = ' + obj.globals)));
     fs.writeFileSync('src/GameData/CharDefaults.ts', format('export const charDefaults = ' + obj.charDefaults));
     fs.writeFileSync('src/GameData/Flags.ts', asConst(format('export const Flags = ' + JSON.stringify(list))));
+
+    if (obj.gameVersion) {
+        console.log('Updating game version to ' + obj.gameVersion);
+        const indexPath = 'src/index.ts';
+        const indexContent = fs.readFileSync(indexPath, 'utf-8');
+        const updatedContent = indexContent.replace(
+            /^(const gameVersion\s*=\s*")[^"]*(";\s*)$/m,
+            '$1' + obj.gameVersion + '$2'
+        );
+        fs.writeFileSync(indexPath, updatedContent, 'utf-8');
+    } else {
+        console.log('Warning: window.version not found on game page, skipping gameVersion update');
+    }
+
     console.log('Finished');
 
     await browser.close();
