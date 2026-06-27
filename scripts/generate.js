@@ -3,7 +3,7 @@ const prettier = require('prettier');
 const fs = require('fs');
 
 (async () => {
-    const browser = await puppeteer.launch();
+    const browser = await puppeteer.launch({ args: ['--no-sandbox', '--disable-setuid-sandbox'] });
     const page = await browser.newPage();
 
     let urls = [];
@@ -11,8 +11,13 @@ const fs = require('fs');
     page.on('response', async (response) => {
         const url = response.url();
         if (url.endsWith('.js')) {
-            urls.push(url);
-            contents.push(await response.text());
+            try {
+                const text = await response.text();
+                urls.push(url);
+                contents.push(text);
+            } catch (err) {
+                console.log('Skipping response with no body: ' + url);
+            }
         }
     });
 
