@@ -1,6 +1,7 @@
 export const globalKeys = {
     Race: [
         { name: "Anubian", value: "Anubian" },
+        { name: "Astrida", value: "Astrida" },
         { name: "Batfolk", value: "Batfolk" },
         { name: "Bearfolk", value: "Bearfolk" },
         { name: "Catfolk", value: "Catfolk" },
@@ -435,7 +436,9 @@ export const globalKeys = {
         { name: "Glacial Spike", value: "GlacialSpike" },
         { name: "Hoarfrost", value: "Hoarfrost" },
         { name: "Rimescore", value: "Rimescore" },
-        { name: "Heart's Edge", value: "HeartsEdge" }
+        { name: "Heart's Edge", value: "HeartsEdge" },
+        { name: "Grand Staff", value: "GrandStaff" },
+        { name: "Guardian Rod", value: "GuardianRod" }
     ],
     ArmorSet: [
         { name: "Comfortable Clothes", value: "ComfortableClothes" },
@@ -527,7 +530,9 @@ export const globalKeys = {
         { name: "Bardic Garments", value: "BardicRobe" },
         { name: "Imperial Cuirass", value: "ImperialCuirass" },
         { name: "Rogue Scholar Attire", value: "RogueScholarAttire" },
-        { name: "Stone Slab Armor", value: "StoneSlabArmor" }
+        { name: "Stone Slab Armor", value: "StoneSlabArmor" },
+        { name: "Magisterial Robes", value: "MagisterialRobes" },
+        { name: "Cobalt-Studded Leathers", value: "CobaltStuddedLeathers" }
     ],
     ItemHead: [
         { name: "Witch's Hat", value: "WitchsHat" },
@@ -550,7 +555,9 @@ export const globalKeys = {
         { name: "Hairpin", value: "Hairpin" },
         { name: "Crown Of Winter", value: "CrownOfWinter" },
         { name: "Secutor Helm", value: "SecutorHelm" },
-        { name: "Pyromancer's Hood", value: "PyromancerHood" }
+        { name: "Pyromancer's Hood", value: "PyromancerHood" },
+        { name: "Magician Hood", value: "MagicianHood" },
+        { name: "Cobalt Cap", value: "CobaltCap" }
     ],
     ItemNeck: [
         { name: "Ward Amulet", value: "WardAmulet" },
@@ -580,7 +587,8 @@ export const globalKeys = {
         { name: "Bronze Pauldrons", value: "BronzePauldrons" },
         { name: "Guard's Cape", value: "GuardsCape" },
         { name: "Seaweave Shaman's Cape", value: "SeaweaveShamanCape" },
-        { name: "Cloak Of The Deeps", value: "CloakOfTheDeeps" }
+        { name: "Cloak Of The Deeps", value: "CloakOfTheDeeps" },
+        { name: "Cobalt Cloak", value: "CobaltCloak" }
     ],
     ItemHands: [
         { name: "Gauntlets", value: "Gauntlets" },
@@ -699,6 +707,7 @@ export const globalKeys = {
         { name: "Shielding Tome", value: "ShieldingTome" },
         { name: "Valkyrie Queen's Shield", value: "ValkyrieQueenShield" },
         { name: "Spectral Shield", value: "SpectralShield" },
+        { name: "Dragon Totem", value: "DragonTotem" },
         { name: "Lynx Totem", value: "LynxTotem" },
         { name: "Harp Of Waves", value: "WavesHarp" },
         { name: "Mug Of Bear", value: "MugOfBear" },
@@ -720,7 +729,9 @@ export const globalKeys = {
         { name: "Ancient Warhorn", value: "AncientWarhorn" },
         { name: "Twisted Horn", value: "TwistedHorn" },
         { name: "Keldoran's Harp", value: "KeldoransHarp" },
-        { name: "Elemental Core", value: "ElementalCore" }
+        { name: "Elemental Core", value: "ElementalCore" },
+        { name: "Symbol Of Velum", value: "SymbolOfVelum" },
+        { name: "Narevan Grimoire", value: "NarevanGrimoire" }
     ],
     TFs: [
         {
@@ -1062,6 +1073,7 @@ export const globalKeys = {
         { name: "Golden Lamp", value: "GoldenLamp" },
         { name: "Useless Book", value: "UselessBook" },
         { name: "Competitor Ticket", value: "CompetitorTicket" },
+        { name: "Salamander Jewelry", value: "SalamanderJewelry" },
         { name: "Lyric", value: "Lyric" }
     ],
     Consumable: [
@@ -1211,6 +1223,7 @@ export const globalKeys = {
         { name: "Evergreen's Bountiful Bag", value: "EvergreensBountifulBag" },
         { name: "Fertility Temple Tablet", value: "FertilityTempleTablet" },
         { name: "Fire Jade", value: "FireJade" },
+        { name: "Flask Of Fresh Water", value: "FlaskOfWater" },
         { name: "Ghostlight Piercing", value: "GhostlightPiercing" },
         { name: "Herd Of Goats", value: "GoatHerd" },
         { name: "Heat/Rut Stud", value: "HeatRutStud" },
@@ -1242,6 +1255,7 @@ export const globalKeys = {
         { name: "Quin's Heavy Armor", value: "QuinsHeavyArmor" },
         { name: "Radmus Office Key", value: "RadmusOfficeKey" },
         { name: "Ragnild's New Clothes", value: "RagsDress" },
+        { name: "Raizel's Medicine", value: "RaizelMedicine" },
         { name: "Ramien's Letter", value: "RamiensLetter" },
         { name: "Rampart Key", value: "RampartKey" },
         { name: "Rimebound Grimoire", value: "RimeboundGrimoire" },
@@ -1400,6 +1414,7 @@ export const globalKeys = {
         { name: "Coat Of Lightning", value: "CoatOfLightning" },
         { name: "Command Of Fire", value: "CommandOfFire" },
         { name: "Conjurer's Concoction", value: "ConjurersConcoction" },
+        { name: "Constricted", value: "Constricted" },
         { name: "Consuming Rot", value: "ConsumingRot" },
         { name: "Cornered Beast", value: "CorneredBeast" },
         { name: "Corrupted Blood", value: "CorruptedBlood" },
@@ -1431,6 +1446,7 @@ export const globalKeys = {
         { name: "Focused", value: "Focused" },
         { name: "Fortified", value: "Fortified" },
         { name: "Frigid", value: "Frigid" },
+        { name: "Glare", value: "Glare" },
         { name: "Goddess' Blessing", value: "GoddessBlessing" },
         { name: "Goddess' Interdiction", value: "GoddessInterdiction" },
         { name: "Guldring Healing", value: "GuldringHealing" },
@@ -1607,6 +1623,7 @@ export const globalKeys = {
         { name: "Piper's Song", value: "PipersSong" },
         { name: "Serpent's Dance", value: "SerpentsDance" },
         { name: "Vine Restraints", value: "VineRestraints" },
+        { name: "Constrict", value: "Constrict" },
         { name: "Harpy Song", value: "HarpySong" },
         { name: "Pollination", value: "Pollination" },
         { name: "Heal", value: "Heal" },
@@ -1734,6 +1751,7 @@ export const globalKeys = {
         { name: "Keldoran's Song", value: "KeldoranSong" },
         { name: "Self-Destruct", value: "SelfDestruct" },
         { name: "Duelist's Taunt", value: "DuelistsTaunt" },
+        { name: "Glare", value: "Glare" },
         { name: "Punch", value: "Punch" },
         { name: "Bite", value: "Bite" },
         { name: "Pounce", value: "Pounce" },
@@ -1772,6 +1790,7 @@ export const globalKeys = {
         { name: "Spore Spew", value: "SporeSpew" },
         { name: "Earthquake", value: "Earthquake" },
         { name: "Frost Venom", value: "FrostVenom" },
+        { name: "Spit Venom", value: "SpitVenom" },
         { name: "Hawk's Strike", value: "HawksStrike" },
         { name: "Fire Summon Attack", value: "FireSummonAttack" },
         { name: "Pussy Tail Tease", value: "PussyTailTease" },
@@ -1849,11 +1868,21 @@ export const globalKeys = {
         { name: "Shadow Magic", value: "ShadowMagic" },
         { name: "Charming Hex", value: "CharmSpell" },
         { name: "Malicious Derision", value: "MaliciousDerision" },
+        { name: "Illusory Ovulation", value: "IllusoryOvulation" },
         { name: "Charming Glance", value: "CharmingGlance" },
         { name: "Hypnotic Words", value: "HypnoticWords" },
         { name: "Sun Of Jassira", value: "SunOfJassira" },
         { name: "Frozen Sun", value: "FrozenSun" },
         { name: "Fire Bolt", value: "FireBolt" },
+        { name: "Deflagrating Touch", value: "DeflagratingTouch" },
+        { name: "Hypercranial Combustion", value: "HypercranialCombustion" },
+        { name: "Marionette Performance", value: "MarionettePerformance" },
+        { name: "The Horror", value: "TheHorror" },
+        { name: "Arcanist Mantle", value: "ArcanistMantle" },
+        { name: "Summon Elder Guardian", value: "SummonElderGuardian" },
+        { name: "Chains Of Perdition", value: "ChainsOfPerdition" },
+        { name: "Massive Milky Mammaries", value: "MassiveMilkyMammaries" },
+        { name: "Blaze Of Triumph", value: "BlazeOfTriumph" },
         { name: "Iceblood", value: "Iceblood" },
         { name: "Pollen Spray", value: "PollenSpray" },
         { name: "Foxfire", value: "Foxfire" },
