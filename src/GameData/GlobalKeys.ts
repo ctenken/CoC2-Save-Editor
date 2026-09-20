@@ -328,6 +328,8 @@ export const globalKeys = {
         { name: "War Staff", value: "WarStaff" },
         { name: "Sling-staff", value: "SlingStaff" },
         { name: "Blade Staff", value: "BladeStaff" },
+        { name: "Bewitching Staff", value: "BewitchingStaff" },
+        { name: "Icerime Rod", value: "IcerimeRod" },
         { name: "Eternal Delusion", value: "EternalDelusion" },
         { name: "Seasonal Rhapsody", value: "SeasonalRhapsody" },
         { name: "Divine Blossom", value: "DivineBlossom" },
@@ -625,6 +627,7 @@ export const globalKeys = {
     ItemFeet: [
         { name: "Bronze Greaves", value: "IronGreaves" },
         { name: "Leather Boots", value: "LeatherBoots" },
+        { name: "Rogues Boots", value: "RoguesBoots" },
         { name: "Cait's Knee Boots", value: "CaitsKneeBoots" },
         { name: "Thigh High Leather Boots", value: "ThighLeatherBoots" },
         { name: "Winged Sabatons", value: "WingedSabatons" },
@@ -670,7 +673,8 @@ export const globalKeys = {
         { name: "Black Seaweave Bra", value: "BlackSeaweaveBra" },
         { name: "Pink Seaweave Bra", value: "PinkSeaweaveBra" },
         { name: "Latex Bra", value: "LatexBra" },
-        { name: "Cowprint Bra", value: "CowprintBra" }
+        { name: "Cowprint Bra", value: "CowprintBra" },
+        { name: "Sarashi", value: "Sarashi" }
     ],
     BottomGarb: [
         { name: "Plain Underwear", value: "PlainUnderwear" },
@@ -713,6 +717,7 @@ export const globalKeys = {
         { name: "Harp Of Waves", value: "WavesHarp" },
         { name: "Mug Of Bear", value: "MugOfBear" },
         { name: "Bull Totem", value: "BullTotem" },
+        { name: "Elosan Grail", value: "ElosanGrail" },
         { name: "Mage Wand", value: "MageWand" },
         { name: "War Totem", value: "WarTotem" },
         { name: "Blank Scroll", value: "BlankScroll" },
@@ -1202,6 +1207,7 @@ export const globalKeys = {
         { name: "Ahmri's Lethicite", value: "AhmriLethicite" },
         { name: "Alchemist Kit", value: "AlchemistKit" },
         { name: "Amalgam Outfits", value: "AmalgamOutfits" },
+        { name: "Astrida Writ", value: "AstridaWrit" },
         { name: "Basket Of Javelins", value: "BasketOfJavelins" },
         { name: "Berwyn's Panties", value: "BerwynsPanties" },
         { name: "Blue Gemstone Stud", value: "BlueGemstoneStud" },
@@ -1285,6 +1291,7 @@ export const globalKeys = {
     ],
     Boon: [
         { name: "Apple Cider", value: "AppleCider" },
+        { name: "Athletic", value: "Athletic" },
         { name: "Bad Fortune", value: "BadFortune" },
         { name: "Bento Box", value: "BentoBox" },
         { name: "Blessing — Health", value: "BlessingHealth" },
@@ -1391,6 +1398,7 @@ export const globalKeys = {
         { name: "Ancestral Aegis", value: "AncestralAegis" },
         { name: "Arcanist Mantle", value: "ArcanistMantle" },
         { name: "Aroused", value: "Aroused" },
+        { name: "Aura Of Desire", value: "AuraOfDesire" },
         { name: "Baffled", value: "Baffled" },
         { name: "Banished", value: "Banished" },
         { name: "Bardic Cadence", value: "BardicCadence" },
@@ -1583,7 +1591,7 @@ export const globalKeys = {
         { name: "Suggestive Sway", value: "SuggestiveSway" },
         { name: "Flash & Fade", value: "FlashFade" },
         { name: "Tumbling Twirl", value: "TumblingTwirl" },
-        { name: "Hearts Desire", value: "HeartsDesire" },
+        { name: "Heart's Desire", value: "HeartsDesire" },
         { name: "Defend", value: "Defend" },
         { name: "Guarded Stance", value: "GuardedStance" },
         { name: "Shielded Stance", value: "ShieldedStance" },
