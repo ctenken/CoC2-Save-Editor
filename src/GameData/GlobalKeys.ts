@@ -393,6 +393,7 @@ export const globalKeys = {
         { name: "Kunai", value: "Kunai" },
         { name: "Straight Pike", value: "StraightPike" },
         { name: "Swift Sword", value: "SwiftSword" },
+        { name: "Noblesse Oblige", value: "NoblesseOblige" },
         { name: "Eastern Greatblade", value: "EasternGreatblade" },
         { name: "Royal Greatspear", value: "RoyalGreatspear" },
         { name: "Amazon Spear", value: "AmazonSpear" },
@@ -440,7 +441,8 @@ export const globalKeys = {
         { name: "Rimescore", value: "Rimescore" },
         { name: "Heart's Edge", value: "HeartsEdge" },
         { name: "Grand Staff", value: "GrandStaff" },
-        { name: "Guardian Rod", value: "GuardianRod" }
+        { name: "Guardian Rod", value: "GuardianRod" },
+        { name: "Dirk", value: "Dirk" }
     ],
     ArmorSet: [
         { name: "Comfortable Clothes", value: "ComfortableClothes" },
@@ -534,7 +536,10 @@ export const globalKeys = {
         { name: "Rogue Scholar Attire", value: "RogueScholarAttire" },
         { name: "Stone Slab Armor", value: "StoneSlabArmor" },
         { name: "Magisterial Robes", value: "MagisterialRobes" },
-        { name: "Cobalt-Studded Leathers", value: "CobaltStuddedLeathers" }
+        { name: "Cobalt-Studded Leathers", value: "CobaltStuddedLeathers" },
+        { name: "Noble Rogue's Suit", value: "NobleRogueSuit" },
+        { name: "Tartan Garb", value: "TartanGarb" },
+        { name: "Strategos Plate", value: "StrategosPlate" }
     ],
     ItemHead: [
         { name: "Witch's Hat", value: "WitchsHat" },
@@ -559,7 +564,8 @@ export const globalKeys = {
         { name: "Secutor Helm", value: "SecutorHelm" },
         { name: "Pyromancer's Hood", value: "PyromancerHood" },
         { name: "Magician Hood", value: "MagicianHood" },
-        { name: "Cobalt Cap", value: "CobaltCap" }
+        { name: "Cobalt Cap", value: "CobaltCap" },
+        { name: "Noble Rogue's Mask", value: "NobleRogueMask" }
     ],
     ItemNeck: [
         { name: "Ward Amulet", value: "WardAmulet" },
@@ -590,7 +596,8 @@ export const globalKeys = {
         { name: "Guard's Cape", value: "GuardsCape" },
         { name: "Seaweave Shaman's Cape", value: "SeaweaveShamanCape" },
         { name: "Cloak Of The Deeps", value: "CloakOfTheDeeps" },
-        { name: "Cobalt Cloak", value: "CobaltCloak" }
+        { name: "Cobalt Cloak", value: "CobaltCloak" },
+        { name: "Noble Rogue's Cape", value: "NobleRogueCape" }
     ],
     ItemHands: [
         { name: "Gauntlets", value: "Gauntlets" },
@@ -604,7 +611,8 @@ export const globalKeys = {
         { name: "Latex Gloves", value: "LatexGloves" },
         { name: "Secutor Armplate", value: "SecutorArmplate" },
         { name: "Pyromancer's Gloves", value: "PyromancerGloves" },
-        { name: "Geomancer's Bracers", value: "GeomancerBracers" }
+        { name: "Geomancer's Bracers", value: "GeomancerBracers" },
+        { name: "Noble Rogue's Gloves", value: "NobleRogueGloves" }
     ],
     ItemWaist: [
         { name: "Potion Belt", value: "PotionBelt" },
@@ -622,12 +630,13 @@ export const globalKeys = {
         { name: "Rimebound Grimoire", value: "RimeboundGrimoire" },
         { name: "Rimescore Grimoire", value: "RimescoreGrimoire" },
         { name: "Pyromancer's Kilt", value: "PyromancerKilt" },
-        { name: "Fertile Girdle", value: "FertileGirdle" }
+        { name: "Fertile Girdle", value: "FertileGirdle" },
+        { name: "Noble Rogue's Girdle", value: "NobleRogueGirdle" }
     ],
     ItemFeet: [
         { name: "Bronze Greaves", value: "IronGreaves" },
         { name: "Leather Boots", value: "LeatherBoots" },
-        { name: "Rogues Boots", value: "RoguesBoots" },
+        { name: "Rogue's Boots", value: "RoguesBoots" },
         { name: "Cait's Knee Boots", value: "CaitsKneeBoots" },
         { name: "Thigh High Leather Boots", value: "ThighLeatherBoots" },
         { name: "Winged Sabatons", value: "WingedSabatons" },
@@ -636,7 +645,8 @@ export const globalKeys = {
         { name: "Latex Boots", value: "LatexBoots" },
         { name: "Tabi Boots", value: "Tabi" },
         { name: "Weed-walkers", value: "Weedwalkers" },
-        { name: "Secutor Legplate", value: "SecutorLegplate" }
+        { name: "Secutor Legplate", value: "SecutorLegplate" },
+        { name: "Noble Rogue's Heels", value: "NobleRogueHeels" }
     ],
     Rings: [
         { name: "Wizard Ring", value: "WizardRing" },
@@ -660,7 +670,8 @@ export const globalKeys = {
         { name: "Ring Of Fertility And Procreation", value: "FAPRing" },
         { name: "Ring Of Pale Flame", value: "PaleFlameRing" },
         { name: "Iron Band", value: "IronBand" },
-        { name: "Signet Ring", value: "SignetRing" }
+        { name: "Signet Ring", value: "SignetRing" },
+        { name: "Aurora Ring", value: "AuroraRing" }
     ],
     TopGarb: [
         { name: "Lacy Bra", value: "LacyBra" },
@@ -713,6 +724,7 @@ export const globalKeys = {
         { name: "Spectral Shield", value: "SpectralShield" },
         { name: "Dragon Totem", value: "DragonTotem" },
         { name: "Serpent Aspis", value: "SerpentAspis" },
+        { name: "Targe", value: "Targe" },
         { name: "Lynx Totem", value: "LynxTotem" },
         { name: "Harp Of Waves", value: "WavesHarp" },
         { name: "Mug Of Bear", value: "MugOfBear" },
@@ -737,7 +749,9 @@ export const globalKeys = {
         { name: "Keldoran's Harp", value: "KeldoransHarp" },
         { name: "Elemental Core", value: "ElementalCore" },
         { name: "Symbol Of Velun", value: "SymbolOfVelun" },
-        { name: "Narevan Grimoire", value: "NarevanGrimoire" }
+        { name: "Narevan Grimoire", value: "NarevanGrimoire" },
+        { name: "Quickdraw Satchel", value: "QuickdrawSatchel" },
+        { name: "Bagpipes", value: "Bagpipes" }
     ],
     TFs: [
         {

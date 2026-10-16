@@ -200,6 +200,7 @@ export const charDefaults = {
         bedmateWakeupFunc: null,
         usedSenninbari: false,
         usedInfernalResolve: false,
+        usedQuickdrawSatchel: false,
         powerSet1: [null, null, null, null, null],
         powerSet2: [null, null, null, null, null],
         powerSet3: [null, null, null, null, null],
@@ -425,7 +426,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     cait: {
         name: "Cait",
@@ -653,7 +655,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     einin: {
         name: "Einin",
@@ -856,7 +859,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     berwyn: {
         name: "Berwyn",
@@ -1081,7 +1085,8 @@ export const charDefaults = {
         lastRechargeEquipped: 2,
         hasFixedIcon: true,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     quin: {
         name: "Quintillus",
@@ -1309,7 +1314,8 @@ export const charDefaults = {
         lastRechargeEquipped: 1,
         hasFixedIcon: true,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     arona: {
         name: "Arona",
@@ -1538,7 +1544,8 @@ export const charDefaults = {
         lastRechargeEquipped: 2,
         hasFixedIcon: true,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     brint: {
         name: "Brint",
@@ -1766,7 +1773,8 @@ export const charDefaults = {
         lastRechargeEquipped: 1,
         hasFixedIcon: true,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     brienne: {
         name: "Brienne",
@@ -1992,7 +2000,8 @@ export const charDefaults = {
         lastRechargeEquipped: 1,
         hasFixedIcon: true,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     kiyoko: {
         name: "Kiyoko",
@@ -2217,7 +2226,8 @@ export const charDefaults = {
         lastRechargeEquipped: 1,
         hasFixedIcon: true,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     etheryn: {
         name: "Etheryn",
@@ -2447,6 +2457,7 @@ export const charDefaults = {
         hasFixedIcon: true,
         usedSenninbari: false,
         usedInfernalResolve: false,
+        usedQuickdrawSatchel: false,
         _buttPoints: 0,
         buttPointsTS: 0
     },
@@ -2676,7 +2687,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     azyrran: {
         name: "Azyrran",
@@ -2899,6 +2911,7 @@ export const charDefaults = {
         hasFixedIcon: true,
         usedSenninbari: false,
         usedInfernalResolve: false,
+        usedQuickdrawSatchel: false,
         wings: 2
     },
     viviane: {
@@ -3127,7 +3140,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     gwyn: {
         name: "",
@@ -3342,7 +3356,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     kinu: {
         name: "Kinu",
@@ -3545,7 +3560,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     gweyr: {
         name: "Gweyr",
@@ -3770,7 +3786,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     eryka: {
         name: "Eryka",
@@ -3995,7 +4012,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     garret: {
         name: "Garret",
@@ -4221,7 +4239,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     lusina: {
         cName: "",
@@ -4432,6 +4451,7 @@ export const charDefaults = {
         bedmateWakeupFunc: null,
         usedSenninbari: false,
         usedInfernalResolve: false,
+        usedQuickdrawSatchel: false,
         bust: "lusina_bust"
     },
     kasyrra: {
@@ -4697,7 +4717,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     shar: {
         name: "Shar",
@@ -4913,7 +4934,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     ninian: {
         name: "Ninian",
@@ -5125,7 +5147,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     infrith: {
         name: "Infrith",
@@ -5346,7 +5369,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     hretha: {
         name: "Hretha",
@@ -5568,7 +5592,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     zuzaan: {
         name: "",
@@ -5771,7 +5796,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     atani: {
         name: "",
@@ -5986,7 +6012,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     evergreen: {
         name: "",
@@ -6215,7 +6242,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     kurako: {
         cName: "",
@@ -6314,8 +6342,8 @@ export const charDefaults = {
         bellyRatingRaw: 4,
         bellyRatingMod: 0,
         lipMod: 0,
-        _hairColor: "white",
-        skinColor: "bronze",
+        _hairColor: "red",
+        skinColor: "dark",
         furColor: "brown",
         scaleColor: "brown",
         lipColor: "peach",
@@ -6351,7 +6379,7 @@ export const charDefaults = {
         earLength: 0,
         eyeType: 7,
         eyeTags: [],
-        eyeColor: "black",
+        eyeColor: "red",
         orgasms: 0,
         lastOrgasm: 0,
         lastMilked: 0,
@@ -6440,7 +6468,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     rags: {
         name: "Ragnild",
@@ -6656,7 +6685,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     liaden: {
         name: "Liaden",
@@ -6880,7 +6910,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     nyzerrah: {
         name: "Queen Nyzerrah",
@@ -7104,7 +7135,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     evelyn: {
         name: "Evelyn",
@@ -7324,7 +7356,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     hethia: {
         name: "Hethia",
@@ -7551,7 +7584,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     elthara: {
         name: "Elthara",
@@ -7774,7 +7808,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     jaelyn: {
         name: "Jael'yn",
@@ -8012,7 +8047,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     valencia: {
         name: "Valencia",
@@ -8242,7 +8278,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     ahmri: {
         name: "Ahmri",
@@ -8446,7 +8483,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     lyric: {
         name: "Lyric",
@@ -8664,6 +8702,7 @@ export const charDefaults = {
         bedmateWakeupFunc: null,
         usedSenninbari: false,
         usedInfernalResolve: false,
+        usedQuickdrawSatchel: false,
         buttMode: false
     },
     hellhound: {
@@ -8877,6 +8916,7 @@ export const charDefaults = {
         bedmateWakeupFunc: null,
         usedSenninbari: false,
         usedInfernalResolve: false,
+        usedQuickdrawSatchel: false,
         bust: "hellhound_bust"
     },
     kohaku: {
@@ -8975,7 +9015,7 @@ export const charDefaults = {
         bellyRatingRaw: 8,
         bellyRatingMod: 0,
         lipMod: 0,
-        _hairColor: "red",
+        _hairColor: "orange",
         skinColor: "dark",
         furColor: "brown",
         scaleColor: "brown",
@@ -9012,7 +9052,7 @@ export const charDefaults = {
         earLength: 0,
         eyeType: 7,
         eyeTags: [],
-        eyeColor: "yellow",
+        eyeColor: "blue",
         orgasms: 0,
         lastOrgasm: 0,
         lastMilked: 0,
@@ -9101,7 +9141,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     seastone: {
         name: "Seastone",
@@ -9331,7 +9372,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     aileh: {
         name: "Aileh",
@@ -9547,7 +9589,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     zo: {
         name: "Lupine Warrior",
@@ -9771,7 +9814,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     salwah: {
         name: "Salwah",
@@ -9989,7 +10033,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     daliza: {
         name: "Daliza",
@@ -10213,7 +10258,8 @@ export const charDefaults = {
         lastRechargeEquipped: 2,
         hasFixedIcon: true,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     eubicha: {
         name: "Bound Centaur",
@@ -10417,7 +10463,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     miko: {
         name: "Miko",
@@ -10519,8 +10566,8 @@ export const charDefaults = {
         bellyRatingRaw: 8,
         bellyRatingMod: 0,
         lipMod: 0,
-        _hairColor: "black",
-        skinColor: "bronze",
+        _hairColor: "grey",
+        skinColor: "dark",
         furColor: "brown",
         scaleColor: "brown",
         lipColor: "peach",
@@ -10645,7 +10692,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     mai: {
         name: "Mai",
@@ -10784,7 +10832,7 @@ export const charDefaults = {
         earLength: 0,
         eyeType: 7,
         eyeTags: [],
-        eyeColor: "red",
+        eyeColor: "black",
         orgasms: 0,
         lastOrgasm: 0,
         lastMilked: 0,
@@ -10873,7 +10921,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     liulfr: {
         name: "Liulfr",
@@ -11094,7 +11143,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     lyla: {
         name: "Lyla",
@@ -11335,7 +11385,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     nihara: {
         name: "Nihara",
@@ -11558,7 +11609,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     rina: {
         name: "Rina",
@@ -11774,7 +11826,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     cassia: {
         name: "Cassia",
@@ -11990,7 +12043,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     rindo: {
         name: "",
@@ -12090,8 +12144,8 @@ export const charDefaults = {
         bellyRatingRaw: 4,
         bellyRatingMod: 0,
         lipMod: 0,
-        _hairColor: "orange",
-        skinColor: "pale",
+        _hairColor: "white",
+        skinColor: "bronze",
         furColor: "brown",
         scaleColor: "brown",
         lipColor: "peach",
@@ -12127,7 +12181,7 @@ export const charDefaults = {
         earLength: 0,
         eyeType: 7,
         eyeTags: [],
-        eyeColor: "yellow",
+        eyeColor: "blue",
         orgasms: 0,
         lastOrgasm: 0,
         lastMilked: 0,
@@ -12216,7 +12270,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     selima: {
         name: "",
@@ -12431,7 +12486,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     nikol: {
         name: "",
@@ -12648,7 +12704,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     vitra: {
         name: "Vitra",
@@ -12869,6 +12926,7 @@ export const charDefaults = {
         bedmateWakeupFunc: null,
         usedSenninbari: false,
         usedInfernalResolve: false,
+        usedQuickdrawSatchel: false,
         relScore: 1
     },
     serena: {
@@ -13086,6 +13144,7 @@ export const charDefaults = {
         bedmateWakeupFunc: null,
         usedSenninbari: false,
         usedInfernalResolve: false,
+        usedQuickdrawSatchel: false,
         relScore: 0
     },
     byvernia: {
@@ -13307,6 +13366,7 @@ export const charDefaults = {
         bedmateWakeupFunc: null,
         usedSenninbari: false,
         usedInfernalResolve: false,
+        usedQuickdrawSatchel: false,
         bust: "byvernia_bust",
         revived: false
     },
@@ -13530,7 +13590,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     livkid: {
         name: "Livia",
@@ -13746,7 +13807,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     sandre: {
         name: "Sandre",
@@ -13912,7 +13974,7 @@ export const charDefaults = {
                 type: 1,
                 virgin: true,
                 tags: [],
-                lengthRaw: 14,
+                lengthRaw: 15,
                 lengthMod: 0,
                 thicknessRatioRaw: 1,
                 thicknessRatioMod: 0,
@@ -13982,7 +14044,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     caera: {
         name: "Caera",
@@ -14219,7 +14282,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     cali: {
         name: "Calise",
@@ -14459,7 +14523,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     calise: {
         cName: "",
@@ -14686,7 +14751,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     asgeir: {
         cName: "",
@@ -14911,6 +14977,7 @@ export const charDefaults = {
         bedmateWakeupFunc: null,
         usedSenninbari: false,
         usedInfernalResolve: false,
+        usedQuickdrawSatchel: false,
         bust: "asgeir_bust"
     },
     noire: {
@@ -15129,7 +15196,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     freja: {
         name: "",
@@ -15332,7 +15400,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     klemaia: {
         name: "Klemaia",
@@ -15550,7 +15619,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     drifa: {
         name: "Drifa",
@@ -15773,7 +15843,8 @@ export const charDefaults = {
         lastRechargeEquipped: 2,
         hasFixedIcon: true,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     aunora: {
         name: "Aunora",
@@ -15991,7 +16062,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     ikora: {
         name: "Ikora",
@@ -16207,7 +16279,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     milly: {
         name: "Milly",
@@ -16423,7 +16496,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     matiha: {
         name: "Mistress Matiha",
@@ -16633,7 +16707,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     carmen: {
         name: "Carmen",
@@ -16839,7 +16914,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     gytha: {
         name: "Gytha",
@@ -17061,7 +17137,8 @@ export const charDefaults = {
         lastRechargeEquipped: 2,
         hasFixedIcon: true,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     annika: {
         name: "Annika",
@@ -17287,7 +17364,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     nina: {
         name: "Antonina",
@@ -17510,7 +17588,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     lumia: {
         name: "Lumia",
@@ -17729,7 +17808,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     thrud: {
         name: "Thrud",
@@ -17945,6 +18025,7 @@ export const charDefaults = {
         bedmateWakeupFunc: null,
         usedSenninbari: false,
         usedInfernalResolve: false,
+        usedQuickdrawSatchel: false,
         frustrationScore: 0,
         coursePositionScore: 0
     },
@@ -18036,8 +18117,8 @@ export const charDefaults = {
         bellyRatingRaw: 8,
         bellyRatingMod: 0,
         lipMod: 0,
-        _hairColor: "white",
-        skinColor: "pale",
+        _hairColor: "grey",
+        skinColor: "bronze",
         furColor: "brown",
         scaleColor: "brown",
         lipColor: "peach",
@@ -18073,7 +18154,7 @@ export const charDefaults = {
         earLength: 0,
         eyeType: 7,
         eyeTags: [],
-        eyeColor: "blue",
+        eyeColor: "red",
         orgasms: 0,
         lastOrgasm: 0,
         lastMilked: 0,
@@ -18162,7 +18243,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     cassidy: {
         name: "Cassidy",
@@ -18364,6 +18446,7 @@ export const charDefaults = {
         bedmateWakeupFunc: null,
         usedSenninbari: false,
         usedInfernalResolve: false,
+        usedQuickdrawSatchel: false,
         vagina: null,
         cocks: [
             {
@@ -18596,6 +18679,7 @@ export const charDefaults = {
         bedmateWakeupFunc: null,
         usedSenninbari: false,
         usedInfernalResolve: false,
+        usedQuickdrawSatchel: false,
         buttMode: false
     },
     eira: {
@@ -18813,6 +18897,7 @@ export const charDefaults = {
         bedmateWakeupFunc: null,
         usedSenninbari: false,
         usedInfernalResolve: false,
+        usedQuickdrawSatchel: false,
         frustrationScore: 0,
         coursePositionScore: 0
     },
@@ -18904,8 +18989,8 @@ export const charDefaults = {
         bellyRatingRaw: 0,
         bellyRatingMod: 0,
         lipMod: 0,
-        _hairColor: "orange",
-        skinColor: "dark",
+        _hairColor: "grey",
+        skinColor: "bronze",
         furColor: "brown",
         scaleColor: "brown",
         lipColor: "peach",
@@ -18940,7 +19025,7 @@ export const charDefaults = {
         earLength: 0,
         eyeType: 7,
         eyeTags: [],
-        eyeColor: "yellow",
+        eyeColor: "black",
         orgasms: 0,
         lastOrgasm: 0,
         lastMilked: 0,
@@ -19031,7 +19116,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     dragoon: {
         cName: "",
@@ -19269,7 +19355,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     alissa: {
         name: "Queen Alissa",
@@ -19511,6 +19598,7 @@ export const charDefaults = {
         bedmateWakeupFunc: null,
         usedSenninbari: false,
         usedInfernalResolve: false,
+        usedQuickdrawSatchel: false,
         bust: "alissa_bust"
     },
     yusra: {
@@ -19729,7 +19817,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     amalgam: {
         name: "",
@@ -19932,7 +20021,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     zhara: {
         name: "Harpy Wingleader",
@@ -20145,6 +20235,7 @@ export const charDefaults = {
         bedmateWakeupFunc: null,
         usedSenninbari: false,
         usedInfernalResolve: false,
+        usedQuickdrawSatchel: false,
         bust: "harpyWingleader_bust"
     },
     mitra: {
@@ -20348,7 +20439,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     piyari: {
         name: "",
@@ -20551,7 +20643,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     aster: {
         name: "Aster",
@@ -20754,7 +20847,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     vatia: {
         name: "Vatia",
@@ -20969,7 +21063,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     alante: {
         name: "Alante",
@@ -21199,7 +21294,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     sariel: {
         name: "Sariel",
@@ -21416,7 +21512,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     rixx: {
         name: "Rixx",
@@ -21636,7 +21733,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     vasha: {
         name: "Vasha",
@@ -21861,7 +21959,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     mantitwins: {
         name: "Manticore Twins",
@@ -22092,7 +22191,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     leticia: {
         name: "Leticia",
@@ -22318,6 +22418,7 @@ export const charDefaults = {
         bedmateWakeupFunc: null,
         usedSenninbari: false,
         usedInfernalResolve: false,
+        usedQuickdrawSatchel: false,
         bust: "leticia_bust"
     },
     natalia: {
@@ -22533,7 +22634,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     kailani: {
         cName: "",
@@ -22757,7 +22859,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     inaya: {
         name: "Kailani",
@@ -22973,7 +23076,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     kalysea: {
         name: "Kalysea",
@@ -23189,7 +23293,8 @@ export const charDefaults = {
         lastRechargeEquipped: 2,
         hasFixedIcon: true,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     isadora: {
         name: "Isadora",
@@ -23400,7 +23505,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     juno: {
         name: "Juno",
@@ -23616,7 +23722,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     astraea: {
         name: "Astraea",
@@ -23849,6 +23956,7 @@ export const charDefaults = {
         bedmateWakeupFunc: null,
         usedSenninbari: false,
         usedInfernalResolve: false,
+        usedQuickdrawSatchel: false,
         relScore: 1
     },
     hana: {
@@ -23948,8 +24056,8 @@ export const charDefaults = {
         bellyRatingRaw: 8,
         bellyRatingMod: 0,
         lipMod: 0,
-        _hairColor: "white",
-        skinColor: "pale",
+        _hairColor: "red",
+        skinColor: "bronze",
         furColor: "brown",
         scaleColor: "brown",
         lipColor: "peach",
@@ -23985,7 +24093,7 @@ export const charDefaults = {
         earLength: 0,
         eyeType: 7,
         eyeTags: [],
-        eyeColor: "yellow",
+        eyeColor: "black",
         orgasms: 0,
         lastOrgasm: 0,
         lastMilked: 0,
@@ -24076,7 +24184,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     kaede: {
         name: "",
@@ -24279,7 +24388,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     oma: {
         name: "Oma",
@@ -24498,6 +24608,7 @@ export const charDefaults = {
         bedmateWakeupFunc: null,
         usedSenninbari: false,
         usedInfernalResolve: false,
+        usedQuickdrawSatchel: false,
         bust: "oma_bust",
         momName: "mom",
         sisName: "sis"
@@ -24716,7 +24827,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     tarah: {
         name: "Tarah",
@@ -24941,6 +25053,7 @@ export const charDefaults = {
         bedmateWakeupFunc: null,
         usedSenninbari: false,
         usedInfernalResolve: false,
+        usedQuickdrawSatchel: false,
         nickName: "Tarah"
     },
     clementine: {
@@ -25157,7 +25270,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     katya: {
         name: "Katya",
@@ -25375,7 +25489,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     yolihuali: {
         name: "Yolihuali",
@@ -25591,7 +25706,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     marissa: {
         name: "Marissa",
@@ -25808,6 +25924,7 @@ export const charDefaults = {
         bedmateWakeupFunc: null,
         usedSenninbari: false,
         usedInfernalResolve: false,
+        usedQuickdrawSatchel: false,
         frustrationScore: 0,
         coursePositionScore: 0
     },
@@ -26026,6 +26143,7 @@ export const charDefaults = {
         bedmateWakeupFunc: null,
         usedSenninbari: false,
         usedInfernalResolve: false,
+        usedQuickdrawSatchel: false,
         frustrationScore: 0,
         coursePositionScore: 0
     },
@@ -26257,7 +26375,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     senja: {
         name: "Senja",
@@ -26473,7 +26592,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     octavia: {
         name: "Octavia",
@@ -26695,7 +26815,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     ylvid: {
         name: "Ylvid",
@@ -26920,7 +27041,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     sif: {
         name: "Sif",
@@ -27144,7 +27266,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     iava: {
         name: "Iava",
@@ -27368,7 +27491,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     ivaze: {
         name: "Ivaze",
@@ -27588,6 +27712,7 @@ export const charDefaults = {
         hasFixedIcon: true,
         usedSenninbari: false,
         usedInfernalResolve: false,
+        usedQuickdrawSatchel: false,
         bust: "ivaze_bust"
     },
     odoacer: {
@@ -27805,7 +27930,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     varena: {
         name: "Varena",
@@ -28032,6 +28158,7 @@ export const charDefaults = {
         bedmateWakeupFunc: null,
         usedSenninbari: false,
         usedInfernalResolve: false,
+        usedQuickdrawSatchel: false,
         bust: "varena_bust",
         trustScore: 0,
         domScore: 0
@@ -28267,6 +28394,7 @@ export const charDefaults = {
         bedmateWakeupFunc: null,
         usedSenninbari: false,
         usedInfernalResolve: false,
+        usedQuickdrawSatchel: false,
         relScore: 1
     },
     olivia: {
@@ -28494,7 +28622,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     yashiko: {
         name: "Yashiko",
@@ -28584,8 +28713,8 @@ export const charDefaults = {
         bellyRatingRaw: 3,
         bellyRatingMod: 0,
         lipMod: 0,
-        _hairColor: "black",
-        skinColor: "dark",
+        _hairColor: "red",
+        skinColor: "pale",
         furColor: "brown",
         scaleColor: "brown",
         lipColor: "peach",
@@ -28621,7 +28750,7 @@ export const charDefaults = {
         earLength: 0,
         eyeType: 7,
         eyeTags: [],
-        eyeColor: "yellow",
+        eyeColor: "red",
         orgasms: 0,
         lastOrgasm: 0,
         lastMilked: 0,
@@ -28710,7 +28839,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     corlup: {
         name: "",
@@ -28913,7 +29043,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     refnir: {
         name: "Refnir",
@@ -29141,7 +29272,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     keros: {
         name: "Keros",
@@ -29268,7 +29400,7 @@ export const charDefaults = {
         earLength: 0,
         eyeType: 7,
         eyeTags: [],
-        eyeColor: "blue",
+        eyeColor: "red",
         orgasms: 0,
         lastOrgasm: 0,
         lastMilked: 0,
@@ -29359,7 +29491,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     alice: {
         name: "Alice",
@@ -29577,7 +29710,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     periwinkle: {
         name: "Periwinkle",
@@ -29794,6 +29928,7 @@ export const charDefaults = {
         bedmateWakeupFunc: null,
         usedSenninbari: false,
         usedInfernalResolve: false,
+        usedQuickdrawSatchel: false,
         frustrationScore: 0,
         coursePositionScore: 0
     },
@@ -29998,7 +30133,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     nash: {
         name: "Nash",
@@ -30201,7 +30337,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     haddi: {
         name: "Haddi",
@@ -30426,7 +30563,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     charys: {
         cName: "",
@@ -30648,7 +30786,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     meridyx: {
         name: "Meridyx",
@@ -30872,6 +31011,7 @@ export const charDefaults = {
         bedmateWakeupFunc: null,
         usedSenninbari: false,
         usedInfernalResolve: false,
+        usedQuickdrawSatchel: false,
         bust: "meridyx_bust",
         electrumStolen: 0
     },
@@ -31090,6 +31230,7 @@ export const charDefaults = {
         bedmateWakeupFunc: null,
         usedSenninbari: false,
         usedInfernalResolve: false,
+        usedQuickdrawSatchel: false,
         frustrationScore: 0,
         coursePositionScore: 0
     },
@@ -31309,7 +31450,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     bk: {
         name: "Blood Knight",
@@ -31549,7 +31691,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     kesuk: {
         name: "Kesuk",
@@ -31767,7 +31910,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     kira: {
         name: "Gnoll Spellblade",
@@ -31992,6 +32136,7 @@ export const charDefaults = {
         bedmateWakeupFunc: null,
         usedSenninbari: false,
         usedInfernalResolve: false,
+        usedQuickdrawSatchel: false,
         bust: "gnoll_bust"
     },
     vrannus: {
@@ -32213,6 +32358,7 @@ export const charDefaults = {
         bedmateWakeupFunc: null,
         usedSenninbari: false,
         usedInfernalResolve: false,
+        usedQuickdrawSatchel: false,
         bust: "vrannus_bust"
     },
     mino: {
@@ -32423,7 +32569,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     lusamine: {
         name: "Lusamine",
@@ -32630,6 +32777,7 @@ export const charDefaults = {
         bedmateWakeupFunc: null,
         usedSenninbari: false,
         usedInfernalResolve: false,
+        usedQuickdrawSatchel: false,
         bust: "lusamine_bust"
     },
     nova: {
@@ -32834,7 +32982,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     raizel: {
         name: "Raizel",
@@ -33070,6 +33219,7 @@ export const charDefaults = {
         bedmateWakeupFunc: null,
         usedSenninbari: false,
         usedInfernalResolve: false,
+        usedQuickdrawSatchel: false,
         _affection: 0
     },
     kythie: {
@@ -33288,7 +33438,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     vasko: {
         name: "Vasko",
@@ -33516,7 +33667,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     ynes: {
         name: "Ynes",
@@ -33733,7 +33885,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     eirina: {
         name: "Eirina",
@@ -33961,7 +34114,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     dorc: {
         cName: "",
@@ -34191,6 +34345,7 @@ export const charDefaults = {
         bedmateWakeupFunc: null,
         usedSenninbari: false,
         usedInfernalResolve: false,
+        usedQuickdrawSatchel: false,
         bust: "demon_argoth_bust"
     },
     lystra: {
@@ -34397,7 +34552,8 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     },
     aisling: {
         name: "Aisling",
@@ -34609,6 +34765,443 @@ export const charDefaults = {
         bedmateSleepFunc: null,
         bedmateWakeupFunc: null,
         usedSenninbari: false,
-        usedInfernalResolve: false
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
+    },
+    evander: {
+        name: "Evander",
+        cName: "",
+        soloCombatPrefix: "",
+        taxa: 1,
+        class: 4,
+        background: 1,
+        genderPref: 0,
+        isPlural: false,
+        partyLeader: false,
+        level: 1,
+        exp: 0,
+        canGainExp: false,
+        compTags: [],
+        actionPoints: 1,
+        ultimateUsed: 0,
+        hitPoints: 100,
+        hitPointsMaxMod: 0,
+        resolvePoints: 100,
+        resolveMaxMod: 0,
+        threatMod: 10,
+        strengthAlloc: 0,
+        strengthMod: 0,
+        toughnessAlloc: 0,
+        toughnessMod: 0,
+        agilityAlloc: 0,
+        agilityMod: 0,
+        cunningAlloc: 0,
+        cunningMod: 0,
+        willpowerAlloc: 0,
+        willpowerMod: 0,
+        presenceAlloc: 0,
+        presenceMod: 0,
+        libidoMod: 0,
+        corruptionMod: 0,
+        isLustImmune: false,
+        isDisarmImmune: false,
+        penetratingResist: 0,
+        crushingResist: 0,
+        holyResist: 0,
+        blightResist: 0,
+        acidResist: 0,
+        fireResist: 0,
+        frostResist: 0,
+        stormResist: 0,
+        teaseResist: 0,
+        drugResist: 0,
+        pheromoneResist: 0,
+        fatigueResist: 0,
+        mindResist: 0,
+        perks: [],
+        powers: [{ key: "NormalAttack" }],
+        equippedPowers: [null, null, null, null, null],
+        combatEffects: [],
+        statusEffects: [],
+        likes: [],
+        dislikes: [],
+        boon: null,
+        credits: 0,
+        weaponPrimary: { key: "RustyKnife", args: [1] },
+        weaponSecondary: null,
+        head: null,
+        neck: null,
+        shoulders: null,
+        armorSet: null,
+        hands: null,
+        waist: null,
+        feet: null,
+        ring1: null,
+        ring2: null,
+        topGarment: null,
+        bottomGarment: null,
+        inventory: [],
+        keyItems: [],
+        set: null,
+        originalRace: "salamander",
+        _race: { key: "Salamander" },
+        femininity: 50,
+        tallness: 77,
+        tone: 30,
+        thickness: 20,
+        hipRatingRaw: 4,
+        hipRatingMod: 0,
+        buttRatingRaw: 4,
+        buttRatingMod: 0,
+        bellyRatingRaw: 2,
+        bellyRatingMod: 0,
+        lipMod: 0,
+        _hairColor: "cobalt blue",
+        skinColor: "pale",
+        furColor: "brown",
+        scaleColor: "brown",
+        lipColor: "peach",
+        hairLength: 2,
+        hairStyle: "unkempt",
+        hairType: 1,
+        hairTags: [],
+        beardLength: 0,
+        beardStyle: "",
+        horns: 0,
+        gillType: -1,
+        hornType: -1,
+        hornLength: 0,
+        wingType: -1,
+        wingCount: 0,
+        wingTags: [],
+        skinType: 6,
+        skinTags: [29],
+        tailType: 32,
+        numTails: 1,
+        tailTags: [29],
+        armType: 32,
+        armTags: [29],
+        legCount: 2,
+        legType: 32,
+        legTags: [29],
+        tongueType: 1,
+        tongueTags: [],
+        faceType: 1,
+        faceTags: [],
+        earType: 32,
+        earTags: [],
+        earLength: 0,
+        eyeType: 32,
+        eyeTags: [],
+        eyeColor: "blue",
+        orgasms: 0,
+        lastOrgasm: 0,
+        lastMilked: 0,
+        exhibRaw: 0,
+        isVirgin: false,
+        vaginalVirgin: true,
+        cockVirgin: false,
+        analVirgin: false,
+        pregnancySpeedRaw: 1,
+        pregnancySpeedMod: 0,
+        breastRows: [{ breasts: 2, sizeRaw: 0, sizeMod: 0 }],
+        nippleColor: "pink",
+        nipplesPerBreast: 1,
+        nippleSizeRatio: 1,
+        nippleType: 7,
+        breastTags: [],
+        milkType: 4,
+        milkMultiplierRaw: 0,
+        milkStorageMultiplierRaw: 1,
+        milkFullnessRaw: 100,
+        milkRateRaw: 10,
+        _balls: 2,
+        ballTags: [],
+        ballEfficiency: 1,
+        ballSizeRaw: 3,
+        ballSizeMod: 0,
+        ballFullness: 100,
+        cocks: [
+            {
+                type: 32,
+                virgin: true,
+                tags: [3, 12, 1],
+                lengthRaw: 7,
+                lengthMod: 0,
+                thicknessRatioRaw: 1,
+                thicknessRatioMod: 0,
+                flaccidRatio: 0.4,
+                _knotRatio: 1.5,
+                pierced: 0,
+                _color: "brown"
+            }
+        ],
+        feracityRaw: 1,
+        feracityMod: 0,
+        fertilityMod: 0,
+        virilityMod: 0,
+        vagina: null,
+        clitLength: 0.5,
+        girlCumType: 1,
+        cumType: 2,
+        cumMultiplierRaw: 1,
+        cumMultiplierMod: 0,
+        ass: {
+            type: 1,
+            hymen: false,
+            clits: 0,
+            wetnessRaw: 0,
+            wetnessMod: 0,
+            loosenessRaw: 1,
+            loosenessMod: 0,
+            bonusCapacity: 0,
+            stretchCounter: 0,
+            tags: [40],
+            _color: ""
+        },
+        lastReceivedDamType: 1,
+        cosmetics: ["", "", "", "", "", "", "", "", "", "", "", ""],
+        reagents: {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0
+        },
+        defaultCockIdx: 0,
+        lastRingSlotEquipped: 2,
+        lastRechargeEquipped: 2,
+        hasFixedIcon: true,
+        bedmateSleepFunc: null,
+        bedmateWakeupFunc: null,
+        usedSenninbari: false,
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
+    },
+    tethys: {
+        name: "Tethys",
+        cName: "",
+        soloCombatPrefix: "",
+        taxa: 1,
+        class: 4,
+        background: 1,
+        genderPref: 1,
+        isPlural: false,
+        partyLeader: false,
+        level: 1,
+        exp: 0,
+        canGainExp: false,
+        compTags: [],
+        actionPoints: 1,
+        ultimateUsed: 0,
+        hitPoints: 100,
+        hitPointsMaxMod: 0,
+        resolvePoints: 100,
+        resolveMaxMod: 0,
+        threatMod: 10,
+        strengthAlloc: 0,
+        strengthMod: 0,
+        toughnessAlloc: 0,
+        toughnessMod: 0,
+        agilityAlloc: 0,
+        agilityMod: 0,
+        cunningAlloc: 0,
+        cunningMod: 0,
+        willpowerAlloc: 0,
+        willpowerMod: 0,
+        presenceAlloc: 0,
+        presenceMod: 0,
+        libidoMod: 0,
+        corruptionMod: 0,
+        isLustImmune: false,
+        isDisarmImmune: false,
+        penetratingResist: 0,
+        crushingResist: 0,
+        holyResist: 0,
+        blightResist: 0,
+        acidResist: 0,
+        fireResist: 0,
+        frostResist: 0,
+        stormResist: 0,
+        teaseResist: 0,
+        drugResist: 0,
+        pheromoneResist: 0,
+        fatigueResist: 0,
+        mindResist: 0,
+        perks: [],
+        powers: [{ key: "NormalAttack" }],
+        equippedPowers: [null, null, null, null, null],
+        combatEffects: [],
+        statusEffects: [],
+        likes: [],
+        dislikes: [],
+        boon: null,
+        credits: 0,
+        weaponPrimary: { key: "RustyKnife", args: [1] },
+        weaponSecondary: null,
+        head: null,
+        neck: null,
+        shoulders: null,
+        armorSet: null,
+        hands: null,
+        waist: null,
+        feet: null,
+        ring1: null,
+        ring2: null,
+        topGarment: null,
+        bottomGarment: null,
+        inventory: [],
+        keyItems: [],
+        set: null,
+        originalRace: "salamander",
+        _race: { key: "Salamander" },
+        femininity: 90,
+        tallness: 77,
+        tone: 60,
+        thickness: 70,
+        hipRatingRaw: 12,
+        hipRatingMod: 0,
+        buttRatingRaw: 8,
+        buttRatingMod: 0,
+        bellyRatingRaw: 4,
+        bellyRatingMod: 0,
+        lipMod: 0,
+        _hairColor: "red",
+        skinColor: "tan",
+        furColor: "brown",
+        scaleColor: "brown",
+        lipColor: "peach",
+        hairLength: 2,
+        hairStyle: "unkempt",
+        hairType: 1,
+        hairTags: [],
+        beardLength: 0,
+        beardStyle: "",
+        horns: 0,
+        gillType: -1,
+        hornType: -1,
+        hornLength: 0,
+        wingType: -1,
+        wingCount: 0,
+        wingTags: [],
+        skinType: 6,
+        skinTags: [29],
+        tailType: 32,
+        numTails: 1,
+        tailTags: [29],
+        armType: 32,
+        armTags: [29],
+        legCount: 2,
+        legType: 32,
+        legTags: [29],
+        tongueType: 1,
+        tongueTags: [],
+        faceType: 1,
+        faceTags: [],
+        earType: 32,
+        earTags: [],
+        earLength: 0,
+        eyeType: 32,
+        eyeTags: [],
+        eyeColor: "dark red",
+        orgasms: 0,
+        lastOrgasm: 0,
+        lastMilked: 0,
+        exhibRaw: 0,
+        isVirgin: false,
+        vaginalVirgin: false,
+        cockVirgin: true,
+        analVirgin: false,
+        pregnancySpeedRaw: 1,
+        pregnancySpeedMod: 0,
+        breastRows: [{ breasts: 2, sizeRaw: 6, sizeMod: 0 }],
+        nippleColor: "pink",
+        nipplesPerBreast: 1,
+        nippleSizeRatio: 1,
+        nippleType: 7,
+        breastTags: [],
+        milkType: 4,
+        milkMultiplierRaw: 0,
+        milkStorageMultiplierRaw: 1,
+        milkFullnessRaw: 100,
+        milkRateRaw: 10,
+        _balls: 0,
+        ballTags: [],
+        ballEfficiency: 1,
+        ballSizeRaw: 3,
+        ballSizeMod: 0,
+        ballFullness: 100,
+        cocks: [],
+        feracityRaw: 1,
+        feracityMod: 0,
+        fertilityMod: 0,
+        virilityMod: 0,
+        vagina: {
+            type: 1,
+            hymen: true,
+            clits: 1,
+            wetnessRaw: 1,
+            wetnessMod: 0,
+            loosenessRaw: 1,
+            loosenessMod: 0,
+            bonusCapacity: 0,
+            stretchCounter: 0,
+            tags: [],
+            _color: ""
+        },
+        clitLength: 0.5,
+        girlCumType: 1,
+        cumType: 2,
+        cumMultiplierRaw: 1,
+        cumMultiplierMod: 0,
+        ass: {
+            type: 1,
+            hymen: false,
+            clits: 0,
+            wetnessRaw: 0,
+            wetnessMod: 0,
+            loosenessRaw: 1,
+            loosenessMod: 0,
+            bonusCapacity: 0,
+            stretchCounter: 0,
+            tags: [40],
+            _color: ""
+        },
+        lastReceivedDamType: 1,
+        cosmetics: ["", "", "", "", "", "", "", "", "", "", "", ""],
+        reagents: {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0
+        },
+        defaultCockIdx: 0,
+        lastRingSlotEquipped: 2,
+        lastRechargeEquipped: 2,
+        hasFixedIcon: true,
+        bedmateSleepFunc: null,
+        bedmateWakeupFunc: null,
+        usedSenninbari: false,
+        usedInfernalResolve: false,
+        usedQuickdrawSatchel: false
     }
 };
